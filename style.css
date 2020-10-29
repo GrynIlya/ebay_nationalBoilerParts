@@ -14,6 +14,14 @@
 .searchBlock{
     margin:15px 225.6px 20px 225.6px;
 }
+
+.searchBlockPosition{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
 .navbarMobile{
     display: none;
 }
@@ -69,7 +77,11 @@
     .searchBlock{margin: 14px}
     .searchBlock img{padding-bottom: 20px}
     a img.transpilotImage{height: auto;width: 100%;margin: 0 4px}
-    #probox #shop_search_query{width: 278px;}
+    #probox #shop_search_query{width: 295px;}
+    .searchBlockPosition{flex-direction: column;align-items: center;}
+    div.contactString{margin: 0;flex-direction: column;}
+    div.contactNotLinks{justify-content: flex-start;}
+    a.contactLinks{justify-content: flex-start;}
 
 }
 
@@ -94,11 +106,13 @@ a.link:hover,.contactLinks:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 45px;
 }
 
 .promagnifier {
     width: 45px;
-    height: 45px;
+    height:100%;
+    box-sizing: border-box;
     background-image: -webkit-linear-gradient(180deg,rgba(27,31,67,1),rgba(27,31,67,1));
     background-image: -moz-linear-gradient(180deg,rgba(27,31,67,1),rgba(27,31,67,1));
     background-image: -o-linear-gradient(180deg,rgba(27,31,67,1),rgba(27,31,67,1));
@@ -140,8 +154,9 @@ svg {
 
 #shop_search_query{
     border: 8px solid #1b1f43;
-    height: 27px;
     width: 264px;
+    height: 100%;
+    box-sizing: border-box;
 }
 input{
     color: #224179;
@@ -167,4 +182,12 @@ input{
     justify-content: space-between;
     align-content: center;
     align-self: center;
+}
+
+.contactNotLinks{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
 }
