@@ -34,6 +34,7 @@
     div.contactString{margin: 0;justify-content: space-between;padding: 0 28px 0 14px;}
     div.contactNotLinks{justify-content: flex-start;}
     a.contactLinks{justify-content: flex-start;}
+    a.linkLast{padding: 14px}
 
 }
 
@@ -46,6 +47,13 @@ li{
 a.link{
     color: #fff!important;
     padding: 14px;
+    text-decoration:none;
+    line-height: 1;
+}
+
+a.linkLast{
+    color: #fff!important;
+    padding: 14px 0 14px 14px;
     text-decoration:none;
     line-height: 1;
 }
