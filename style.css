@@ -23,19 +23,7 @@
 
 
 
-@media handheld, (max-width: 900px) {
-    .searchBlock{margin: 14px}
-    .searchBlock img{padding-bottom: 20px}
-    a img.transpilotImage{height: auto;width: 100%;margin: 0 4px}
-    .navbar{margin: 0;font-size: 20px;text-align: center;}
-    .navbar ul{padding: 0}
-    #probox #shop_search_query{width: 295px;}
-    .searchBlockPosition{align-items: center;}
-    div.contactString{margin: 0;justify-content: space-between;}
-    div.contactNotLinks{justify-content: flex-start;}
-    a.contactLinks{justify-content: flex-start;}
 
-}
 
 
 
