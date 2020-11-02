@@ -34,7 +34,7 @@
     div.contactString{margin: 0;justify-content: space-between;padding: 0 28px 0 14px;}
     div.contactNotLinks{justify-content: flex-start;}
     a.contactLinks{justify-content: flex-start;}
-    a.linkLast{padding: 14px}
+    a.linkLast{padding: 14px 14px 14px 14px!important;}
 
 }
 
@@ -57,7 +57,7 @@ a.linkLast{
     text-decoration:none;
     line-height: 1;
 }
-a.link:hover,.contactLinks:hover {
+a.link:hover,.contactLinks:hover,a.linkLast:hover {
     color: #5bd300!important; /* Цвет ссылки */
     text-decoration: none;
 }
@@ -139,7 +139,7 @@ input{
     line-height: 1.4;
 }
 .contactString{
-    margin: 0 225.6px 0 225.6px;
+    margin: 0 225.6px 0 211.6px;
     display: flex;
     justify-content: space-between;
     align-content: center;
